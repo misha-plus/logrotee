@@ -34,7 +34,7 @@ private:
 	
 public:
 	Arguments(int argc, char *argv[])
-			: chunkSize(DEFAULT_CHUNK_SIZE)
+			: chunkSize(DEFAULT_CHUNK_SIZE), invalid(false)
 	{
 		int getoptResult;
 		
